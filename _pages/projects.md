@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: peoms
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: “Not I, nor anyone else can travel that road for you. You must travel it by yourself. It is not far. It is within reach. Perhaps you have been on it since you were born, and did not know. Perhaps it is everywhere - on water and land.”
 nav: true
 display_categories: [work, fun]
 horizontal: false
