@@ -2,7 +2,7 @@
 layout: page
 title: 隔离的方丈和他的宇宙
 description: Quarantined Abbot and His Universe
-img: assets/img/peom_1.jpg
+img: assets/img/poem_1.jpg
 redirect: https://mp.weixin.qq.com/s?__biz=MzUyMDkzOTY4Mg==&mid=2247484033&idx=1&sn=1ee5cbac44929d20d1282516dab6b4fd&scene=19#wechat_redirect
 importance: 3
 category: peoms
