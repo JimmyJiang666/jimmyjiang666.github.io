@@ -1,9 +1,8 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 description: <a href="https://nyuad.nyu.edu/en/">Affiliations</a>. New York University Abu Dhabi.
-
 profile:
   align: right
   image: prof_pic.jpg
