@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: Prose
+title: 碎碎念
+description: Murmuring
+img: assets/img/poem3.jpg
+redirect: https://mp.weixin.qq.com/s?__biz=MzUyMDkzOTY4Mg==&mid=2247484046&idx=1&sn=61ac343f0bb1fb91ea07640c013da6c9&scene=19#wechat_redirect
+importance: 3
+category: Poem
 ---
 
 Every project has a beautiful feature showcase page.

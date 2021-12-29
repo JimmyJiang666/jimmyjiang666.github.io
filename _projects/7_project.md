@@ -1,11 +1,10 @@
 ---
 layout: page
-title: 半打
-description: Half A Dozen
-img: assets/img/poem2.jpg
-redirect: https://mp.weixin.qq.com/s?__biz=MzUyMDkzOTY4Mg==&mid=2247483843&idx=1&sn=ef9588aa16b389fe4582a5ab96bf8caf&scene=19#wechat_redirect
-importance: 3
-category: Poem
+title: project 6
+description: a project with no image
+img:
+importance: 4
+category: Prose
 ---
 
 Every project has a beautiful feature showcase page.
