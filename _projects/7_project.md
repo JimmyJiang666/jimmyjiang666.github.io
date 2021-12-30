@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: 荀子与韩非子
+description: Xunzi and Han Feizi - Battle of Li and Fa
+img: assets/img/prose.jpg
+redirect: https://mp.weixin.qq.com/s?__biz=MzUyMDkzOTY4Mg==&mid=2247484704&idx=1&sn=35fa054b90556cdd476323a01df9721f&scene=19#wechat_redirect
 importance: 4
 category: Prose
 ---
