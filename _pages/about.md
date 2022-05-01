@@ -4,7 +4,7 @@ title: About
 permalink: /
 description: 
 
-  <a href="https://nyuad.nyu.edu/en/">Affiliations</a>. New York University Abu Dhabi.
+  <a href="https://nyuad.nyu.edu/en/">Affiliations</a>. New York University Abu Dhabi. \
   
   <a href="https://ieor.berkeley.edu/">Affiliations</a>. UC Berkeley’s Industrial Engineering and Operations Research.
 
