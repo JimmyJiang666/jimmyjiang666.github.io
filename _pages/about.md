@@ -2,7 +2,11 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://nyuad.nyu.edu/en/">Affiliations</a>. New York University Abu Dhabi.
+description: 
+
+  <a href="https://nyuad.nyu.edu/en/">Affiliations</a>. New York University Abu Dhabi.
+  <a href="https://ieor.berkeley.edu/">Affiliations</a>. UC Berkeley’s Industrial Engineering and Operations Research.
+
 profile:
   align: right
   image: prof_pic.jpg
@@ -16,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Muyan Jiang. I am currently an undergraduate in New York University, Abu Dhabi, UAE, where I am completing my senior year with a double major in Mathematics and Computer Sciences. I am currently applying for PhD programs in the field of computational sciences and mathematics.
+My name is Muyan Jiang. I am currently an undergraduate in New York University, Abu Dhabi, UAE, where I am completing my senior year with a double major in Mathematics and Computer Sciences. I am an incoming PhD student at UC Berkeley’s Industrial Engineering and Operations Research.
 
 My undergraduate education is in a global liberal arts school where I have studied in many places including Abu Dhabi, New York, Turkey, Bulgaria, Sri Lanka, etc. I have taken classes from various disciplines including Mathematics, Computer Sciences, Economy, Astronomy, Biology, Political Sciences, Arabic Language, Photography, etc.
 
