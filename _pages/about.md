@@ -22,4 +22,4 @@ My undergraduate education is in a global liberal arts school where I have studi
 
 I have experiences in research at the intersection of mathematics and computer science. I am broadly interested in matrix analysis, epidemiological modeling, operation research, machine learning, Lie (super)algebra, etc. Please refer to my [publications page](/publications/) for details.
 
-For a recent resume, click [here](/assets/pdf/resume.pdf)
+For a recent resume, click [here](/assets/pdf/resume.pdf).
