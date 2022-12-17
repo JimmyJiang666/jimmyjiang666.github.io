@@ -10,7 +10,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jimmy.jpg
   address: >
     <p>4141 Etcheverry Hall</p>
     <p>University of California<p>
