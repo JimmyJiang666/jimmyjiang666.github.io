@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://nyuad.nyu.edu/en/">New York University Abu Dhabi</a> | <a href="https://ieor.berkeley.edu/">UC Berkeley’s Industrial Engineering and Operations Research</a>
+subtitle:  <a href="https://ieor.berkeley.edu/">UC Berkeley’s Industrial Engineering and Operations Research</a> | <a href="https://nyuad.nyu.edu/en/">New York University Abu Dhabi</a>
 
 profile:
   align: right
@@ -11,8 +11,7 @@ profile:
     <p>4141 Etcheverry Hall</p>
     <p>University of California<p>
     <p>Berkeley, California 94720-1777<p>
-nav: true
-nav_order: 1
+
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
