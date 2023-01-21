@@ -1,80 +1,97 @@
 - title: General Information
   type: map
   contents:
-    - name: Name
-      value: Xinyao Han
-    - name: Technical Skills
-      value: Python (PyTorch, NLTK, scikit-learn, Selenium, Pandas), R, SQL, Julia, ArcGIS, C, Java, Git
+    - name: Full Name
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: Chinese, English
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Bussiness Analytics
-      institution: Massachusetts Institute of Technology
-      year: 2023
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - "Coursework: Machine Learning, Optimization Methods, Analytics Edge, Analytics Lab"
-        - "ML Project: Social media ads CPA prediction on marketing strategy (OCT & XGB), with 26% cost reduction (Python, Julia)"
-        - "Optimization Project: Optimized delivery routes with random customer locations & stochastic travel times, reducing delivery cost by 60% (Julia)"
-    - title: Bachelor of Science
-      institution: New York University, Shanghai
-      year: 2022
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - "Coursework: Natural Language Processing, Algorithms, Probability and Statistics, Econometrics"
-        - "NLP Project: Implemented BERT multi-task model on criminal legal dataset to answer paragraph questions"
-        - "Leadership: Career Development Center Intern (Promoted to Leader), Undergraduate Business Association Vice President"
-- title: Work Experience
+        - Description 1.
+        - Description 2.
+
+- title: Experience
   type: time_table
   contents:
-    - title: Research Assistant
-      institution: MIT OPERATIONS RESEARCH CENTER | LIBERTY MUTUAL
-      year: 2022-Present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Designed and implemented scalable imputation algorithm to imputed 2 high-dimensional matrices on 500k insurance data with $1.2B revenue, analyzed imputation mechanisms, presented results to Data Science teams to improve pricing (Python)
-        - Performed tree models and neural network on insurance loss prediction, enhancing baseline model performance (Tensorflow)
-    
-    - title: Analytics Lab Team Member
-      institution: MIT SLOAN | UNITED NATIONS
-      year: 2022
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Feature-engineered satellite imagery data into patches (ArcGIS), classified buildings in rural Colombia from pixel-level (CART, XGBoost, random forest), achieving 98% AUC (PyTorch)
-        - Integrated classification models to UNMAS global analytics team to evaluate effects of Colombian mine clearance project, providing insights into subsequent urban developments of Colombia
+        - Description 1.
+        - Description 2.
 
-    - title: Global Data Summer Intern
-      institution: BLOOMBERG
-      year: 2021
-      description:
-        - Crawled 100+ reports (Selenium), extracted key points and established a data repository in Bloomberg, transformed data with statistical correlations, visualized data to analyze macro & micro finance trends (Python)
-        - Developed product template with data mining on domestic policy research, presented product to senior management (40+ European & APAC team leads, managers) and used as Bloomberg prototype product
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
 
-    - title: Data Scientist Intern
-      institution: EBAY INC
-      year: 2021
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
       description:
-        - Led team of 2 interns to conduct clustering-based cohort analysis and regression-based incrementally analysis utilizing 5-year data for 200B users to evaluate effectiveness of major promotion events, resulting in 1.5% increase in user retention
-        - Designed and proposed 15+ decision, guardrail, and learning metrics to measure promotion impact, constructed dashboards to analyze business metrics performance and user behaviors (Python, Tableau), presented data-driven promotion strategies to business and operations teams bi-weekly
-    
-    - title: Research Assistant
-      institution: NYU CENTER FOR DATA SCIENCE AND ARTIFICIAL INTELLIGENCE
-      year: 2020
-      description:
-        - Conducted text analysis on 70M HSBC payment transactions, preprocessed features via word embeddings (NLTK)
-        - Segregated customers using text data on consumption behavior with Multinomial Naive Bayes & NN models, achieving 88% accuracy (PyTorch), introduced customer segmentation strategies to HSBC Data Science team
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2018-2022
+    - year: 1921
       items: 
-        - NYU Honors Scholar
-        - Global Futures Scholar
-        - Dean's Honors List 2018-2022
-        - NYU Excellence Award
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
-- title: Additional Information
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
   type: list
   contents:
-    - <u>Volunteer:</u> Researched Chinese female maternity policy & economic effects, volunteer teacher for migrant children in China
-    - <u>Interests:</u> amateur pianist, avid yogi, adrenaline junkie, figure skating learner
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
