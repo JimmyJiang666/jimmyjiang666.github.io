@@ -7,4 +7,4 @@ nav: true
 nav_order: 5
 ---
 
-- New York University: CSCI-UA.0480: <u>Teaching Assistant</u>, Special Topics: Natural Language Processing, Fall 2021.
+- New York University: CSCI-UA.0480: Special Topics: Natural Language Processing, <u>Fall 2021</u>. (Teaching Assistant)
