@@ -6,7 +6,7 @@ description: “Not I, nor anyone else can travel that road for you. You must tr
 nav: true
 nav_order: 3
 display_categories: [Articles, Poem, Prose]
-horizontal: false
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
