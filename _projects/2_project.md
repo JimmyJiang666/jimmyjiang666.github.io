@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: 2020年欧洲杯
+description: A collection of my articles for 2020 Euro Cup
+img: assets/img/euro2020.jpg
 importance: 2
-category: Work
+redirect: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUyMDkzOTY4Mg==&action=getalbum&album_id=1903894550578774019&scene=173&from_msgid=2247484802&from_itemidx=1&count=3&nolastread=1#wechat_redirect
+category: Articles
 ---
 
 Every project has a beautiful feature showcase page.
