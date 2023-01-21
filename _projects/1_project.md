@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: 2022年卡塔尔世界杯
+description: A collection of my articles for 2022 Qatar World Cup
+img: assets/img/qatar.jpg
+redirect: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUyMDkzOTY4Mg==&action=getalbum&album_id=2237079338556899334&scene=173&from_msgid=2247484873&from_itemidx=1&count=3&nolastread=1#wechat_redirect
 importance: 1
-category: Work
+category: Article
 ---
 
 Every project has a beautiful feature showcase page.
