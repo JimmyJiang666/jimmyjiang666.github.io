@@ -51,14 +51,16 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Operations Research
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Data-driven decision making
+        - Optimization theory
+        - RL in OR
+
+    - title: Pure Mathematics
       items:
-        - Description 1.
-        - Description 2.
+        - Operator theory
+        - Lie (super)algebra
 
 - title: Other Interests
   type: list
