@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://nyuad.nyu.edu/en/">New York University Abu Dhabi</a> <a href="https://ieor.berkeley.edu/">UC Berkeley’s Industrial Engineering and Operations Research</a>
+subtitle: <a href="https://nyuad.nyu.edu/en/">New York University Abu Dhabi</a> | <a href="https://ieor.berkeley.edu/">UC Berkeley’s Industrial Engineering and Operations Research</a>
 
 profile:
   align: right
