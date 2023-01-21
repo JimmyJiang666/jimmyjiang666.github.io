@@ -36,21 +36,8 @@
       institution: New York University, Abu Dhabi
       year: 2019-2022
       description:
-        - Covid-19 Epidemiological Research
-        contents:
-            - Simulated COVID-19 pandemic using the SEIR-model to suggest an optimal policy for schools to balance trade-offs between in-person classes and the spread of the virus, with tools from Mathematica and MatLab
-            - Published a paper in Scientific Report on the eluding effect of school opening that mathematically explained the ambiguous role of school opening policy during the COVID-19 outbreak and the existence of a phase transition
-        - Covid-19 Literature Classification with Termolator
-        - Matrix Analysis 
-        - Lie Algebra
-
-    - title: Lab Assistant
-      institution: Peking University
-      year: 2018
-      description:
-        - Conducted experiments on efficiency of different cells transfection methods indicated by fluorescence expression.
-        - Assisted on quantitative analysis of data collected, using Python and Mathematica.
-        - Managed logistics of experiments including PCR and cells transfection instruments.
+        - Description 1.
+        - Description 2.
 
 - title: Open Source Projects
   type: time_table
