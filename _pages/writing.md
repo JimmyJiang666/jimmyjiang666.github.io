@@ -10,7 +10,7 @@ display_categories: [Articles, Poems, Proses]
 horizontal: false
 ---
 <figure>
-  <img src="https://mmbiz.qpic.cn/mmbiz_png/5yU316WwNPiap8ibqjOfl4lpibp1b74XxUiaJ0lgc37QkktYJLn1hUQ80gX06EzXUBBUaf3BI9U8AYPrq31pMIcfZw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="wechat" style="width:100%">
+  <img src="wechat.jpg" alt="wechat" style="width:100%">
   <figcaption>You are welcome to follow my wechat public account :)</figcaption>
 </figure>
 <hr/>
