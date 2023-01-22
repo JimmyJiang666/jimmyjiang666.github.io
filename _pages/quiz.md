@@ -12,7 +12,46 @@ These are indisputable things in the world that people often don't realize. (Jk.
 </p>
 
 <hr/>
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-responsive" src="https://cdn.cnn.com/cnnnext/dam/assets/180426115546-cola-wars-coke-pepsi.jpg" width="85%"/>
+    </div>
 
+    <div class="col-sm-8">
+        <p>
+        Question 1: Pepsi or Coke?
+        </p>
+        <button onclick="photo1()">Pepsi</button>
+        <div id="answer1" style="display:none;">
+            Pepsi, something tastes like toilet cleaner.
+        </div>
+        <button onclick="photo2()">Coke</button>
+        <div id="answer2" style="display:none;">
+            Yes, coke please.
+        </div>
+        <script>
+            function photo1() {
+              var x = document.getElementById("answer1");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function photo2() {
+              var x = document.getElementById("answer2");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
+<hr/>
 
 <div class="row">
     <div class="col-sm-4">
