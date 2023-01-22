@@ -9,10 +9,20 @@ nav_order: 3
 display_categories: [Articles, Poems, Proses]
 horizontal: false
 ---
-<figure>
-  <img src="../assets/img/wechat.jpg" alt="wechat" style="width:75%">
-  <figcaption>You are welcome to follow my wechat public account :)</figcaption>
-</figure>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+<img src="../assets/img/wechat.jpg" alt="Paris" style="width:50%;">
+You are welcome to follow my wechat public account :)
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
