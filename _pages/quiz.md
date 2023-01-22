@@ -56,7 +56,7 @@ These are indisputable things in the world that people often don't realize. If y
 <hr/>
 <div class="row">
     <div class="col-sm-4">
-        <img class="img-responsive" src="http://p9.itc.cn/q_70/images03/20200625/5877604ed4284b149ebddb76d8d84ac1.jpeg"/>
+        <img class="img-responsive" src="http://p9.itc.cn/q_70/images03/20200625/5877604ed4284b149ebddb76d8d84ac1.jpeg" width="75%"/>
     </div>
 
     <div class="col-sm-8">
