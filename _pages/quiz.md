@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 <p>
-These are indisputable things in the world that people often don't realize. (Jk. Things that charecterize me 🤔) Ordered in significance (to me) order. If you are 100% with me, shoot me an email we should grab a coffee at some point. 
+These are indisputable things in the world that people often don't realize. (Jk. More like things that charecterize me 🤔) Ordered in life-significance (to me). If you are 100% with me, shoot me an email we should grab a coffee at some point. 
 </p>
 
 https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
@@ -101,7 +101,7 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 
     <div class="col-sm-8">
         <p>
-        Question 3: which one is better? Zongzi with meat(肉粽) or Zongzi with sugar(甜粽)?
+        Question 3: Zongzi with meat(肉粽) or Zongzi with sugar(甜粽)?
         </p>
         <button onclick="photo3()">Zongzi with meat(肉粽)</button>
         <div id="answer3" style="display:none;">
