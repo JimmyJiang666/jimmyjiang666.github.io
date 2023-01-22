@@ -11,8 +11,6 @@ nav_order: 6
 These are indisputable things in the world that people often don't realize. (Jk. More like things that charecterize me 🤔) Ordered in life-significance (to me). If you are 100% with me, shoot me an email we should grab a coffee at some point. 
 </p>
 
-https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
-
 <hr/>
 <div class="row">
     <div class="col-sm-4">
@@ -136,7 +134,7 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 <hr/>
 <div class="row">
     <div class="col-sm-4">
-        <img class="img-responsive" src="http://p9.itc.cn/q_70/images03/20200625/5877604ed4284b149ebddb76d8d84ac1.jpeg" width="85%"/>
+        <img class="img-responsive" src="https://cdn.britannica.com/86/166986-050-4CEFE5DE/cute-kitten-and-puppy-outdoors-in-grass.jpg" width="85%"/>
     </div>
 
     <div class="col-sm-8">
@@ -218,12 +216,52 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 <hr/>
 <div class="row">
     <div class="col-sm-4">
+        <img class="img-responsive" src="http://img.mp.itc.cn/upload/20170407/6ed9c11c35344c4387e4c67adac3b920_th.png" width="85%"/>
+    </div>
+
+    <div class="col-sm-8">
+        <p>
+        Question 6: Chongqing hotpot or Chengdu hotpot?
+        </p>
+        <button onclick="Hotpot()">Chengdu</button>
+        <div id="Hotpot" style="display:none;">
+            Click the other one I'll tell you.
+        </div>
+        <button onclick="Chongqing()">Chongqing</button>
+        <div id="answer6" style="display:none;">
+            There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.
+        </div>
+        <script>
+            function Chengdu() {
+              var x = document.getElementById("Chengdu");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function Chongqing() {
+              var x = document.getElementById("Chongqing");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4">
         <img class="img-responsive" src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1120%2Fr1093637_1296x729_16%2D9.jpg" width="85%"/>
     </div>
 
     <div class="col-sm-8">
         <p>
-        Question 6: Who is the GOAT?
+        Question 7: Who is the GOAT?
         </p>
         <button onclick="photo7()">Messi</button>
         <div id="answer7" style="display:none;">
