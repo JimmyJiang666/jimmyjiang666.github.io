@@ -56,8 +56,8 @@ horizontal: false
     {% endif %}
 
   {% endif %}
-  <img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
-  You are welcome to follow my wechat public account :)
+<!--   <img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
+  You are welcome to follow my wechat public account :) -->
 </div>
 
 
