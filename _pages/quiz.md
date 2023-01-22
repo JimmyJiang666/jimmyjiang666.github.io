@@ -8,8 +8,10 @@ nav_order: 6
 ---
 
 <p>
-These are indisputable things in the world that people often don't realize. (Jk. Things that charecterize me 🤔) If you are 100% with me, shoot me an email we should grab a coffee at some point. 
+These are indisputable things in the world that people often don't realize. (Jk. Things that charecterize me 🤔) Ordered in significance (to me) order. If you are 100% with me, shoot me an email we should grab a coffee at some point. 
 </p>
+
+https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 
 <hr/>
 <div class="row">
@@ -42,6 +44,46 @@ These are indisputable things in the world that people often don't realize. (Jk.
         <script>
             function photo2() {
               var x = document.getElementById("answer2");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-responsive" src="https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg" width="85%"/>
+    </div>
+
+    <div class="col-sm-8">
+        <p>
+        Question 2: Lays or Pringles?
+        </p>
+        <button onclick="Lays()">Lays</button>
+        <div id="Lays" style="display:none;">
+            When you buy Lays, you are just paying for the air inside.
+        </div>
+        <button onclick="Pringles()">Pringles</button>
+        <div id="Pringles" style="display:none;">
+            MasterPIECE.
+        </div>
+        <script>
+            function Lays() {
+              var x = document.getElementById("Lays");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function Pringles() {
+              var x = document.getElementById("Pringles");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
@@ -134,7 +176,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </script>
     </div>
 </div>
-
+<hr/>
 <div class="row">
     <div class="col-sm-4">
         <img class="img-responsive" src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1120%2Fr1093637_1296x729_16%2D9.jpg" width="85%"/>
