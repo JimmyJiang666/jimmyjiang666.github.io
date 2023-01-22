@@ -101,7 +101,7 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 
     <div class="col-sm-8">
         <p>
-        Question 2: which one is better? Zongzi with meat(肉粽) or Zongzi with sugar(甜粽)?
+        Question 3: which one is better? Zongzi with meat(肉粽) or Zongzi with sugar(甜粽)?
         </p>
         <button onclick="photo3()">Zongzi with meat(肉粽)</button>
         <div id="answer3" style="display:none;">
@@ -133,7 +133,46 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
         </script>
     </div>
 </div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-responsive" src="http://p9.itc.cn/q_70/images03/20200625/5877604ed4284b149ebddb76d8d84ac1.jpeg" width="85%"/>
+    </div>
 
+    <div class="col-sm-8">
+        <p>
+        Question 4: Dog or cat?
+        </p>
+        <button onclick="Dog()">Dog</button>
+        <div id="Dog" style="display:none;">
+            Yes. Labrador. The best.
+        </div>
+        <button onclick="Cat()">Cat</button>
+        <div id="Cat" style="display:none;">
+            🐱
+        </div>
+        <script>
+            function Dog() {
+              var x = document.getElementById("Dog");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function Cat() {
+              var x = document.getElementById("Cat");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
 <hr/>
 <div class="row">
     <div class="col-sm-4">
@@ -142,7 +181,7 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 
     <div class="col-sm-8">
         <p>
-        Question 3: Satisfied pig or dissatisfied Socrates?
+        Question 5: Satisfied pig or dissatisfied Socrates?
         </p>
         <button onclick="photo5()">Satisfied pig</button>
         <div id="answer5" style="display:none;">
@@ -184,7 +223,7 @@ https://diffzi.com/wp-content/uploads/2018/11/Lays-vs.-Pringles.jpg
 
     <div class="col-sm-8">
         <p>
-        Question 1: Who is the GOAT?
+        Question 6: Who is the GOAT?
         </p>
         <button onclick="photo7()">Messi</button>
         <div id="answer7" style="display:none;">
