@@ -180,17 +180,17 @@ These are indisputable things in the world that people often don't realize. (Jk.
         <p>
         Question 5: Chongqing hotpot or Chengdu hotpot?
         </p>
-        <button onclick="Hotpot()">Chengdu</button>
-        <div id="Hotpot" style="display:none;">
-            Click the other one I'll tell you.
-        </div>
         <button onclick="Chongqing()">Chongqing</button>
-        <div id="answer6" style="display:none;">
+        <div id="Hotpot" style="display:none;">
             There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.
         </div>
+        <button onclick="Chengdu()">Chengdu</button>
+        <div id="answer6" style="display:none;">
+            Click the other one I'll tell you.
+        </div>
         <script>
-            function Chengdu() {
-              var x = document.getElementById("Chengdu");
+            function Chongqing() {
+              var x = document.getElementById("Chongqing");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
@@ -199,8 +199,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
             }
         </script>
         <script>
-            function Chongqing() {
-              var x = document.getElementById("Chongqing");
+            function Chengdu() {
+              var x = document.getElementById("Chengdu");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
