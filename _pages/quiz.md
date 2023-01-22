@@ -215,7 +215,6 @@ These are indisputable things in the world that people often don't realize. (Jk.
     <div class="col-sm-4">
         <img class="img-responsive" src="https://thumbs.dreamstime.com/z/%E7%8C%8E%E8%B1%B9%E5%92%8C%E4%B9%8C%E9%BE%9F-%E5%BF%AB%E9%80%9F%E5%92%8C%E6%85%A2%E8%BD%BD%E9%87%8D%E6%A2%81-95250308.jpg" width="85%"/>
     </div>
-
     <div class="col-sm-8">
         <p>
         Question 7: A leopard that runs for 50 years or a turtle that sleeps for 150 years? (Credit to my mom who asked me this question all the time when I was little)
@@ -253,11 +252,53 @@ These are indisputable things in the world that people often don't realize. (Jk.
 <hr/>
 <div class="row">
     <div class="col-sm-4">
+        <img class="img-responsive" src="https://media.licdn.com/dms/image/C4E12AQHUqdLSIYhFWQ/article-cover_image-shrink_600_2000/0/1520172015994?e=2147483647&v=beta&t=FtcUUgDliRSuBZGimArPTTcb1MVcHk5vLhQ-g4PSzH4" width="85%"/>
+    </div>
+
+    <div class="col-sm-8">
+        <p>
+        Question 8: Satisfied pig or dissatisfied Socrates?
+        </p>
+        <button onclick="photo5()">Satisfied pig</button>
+        <div id="answer5" style="display:none;">
+            An oink! An oink! 🐷
+        </div>
+        <button onclick="photo6()">Dissatisfied Socrates</button>
+        <div id="answer6" style="display:none;">
+            "Il n'ya qu'un héroïsme au monde：c'est de voir le monde tel qu'il est et de l'aimer."
+
+            So yes, I'd rather be a dissatisfied Socrates.
+        </div>
+        <script>
+            function photo5() {
+              var x = document.getElementById("answer5");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function photo6() {
+              var x = document.getElementById("answer6");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4">
         <img class="img-responsive" src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1120%2Fr1093637_1296x729_16%2D9.jpg" width="85%"/>
     </div>
     <div class="col-sm-8">
         <p>
-        Question 8: Now the most important question. Who is the GOAT?
+        Question 9: Now the most important question. Who is the GOAT?
         </p>
         <button onclick="photo7()">Messi</button>
         <div id="answer7" style="display:none;">
