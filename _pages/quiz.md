@@ -181,11 +181,11 @@ These are indisputable things in the world that people often don't realize. (Jk.
         Question 5: Chongqing hotpot or Chengdu hotpot?
         </p>
         <button onclick="Chongqing()">Chongqing</button>
-        <div id="Hotpot" style="display:none;">
+        <div id="Chongqing" style="display:none;">
             There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.
         </div>
         <button onclick="Chengdu()">Chengdu</button>
-        <div id="answer6" style="display:none;">
+        <div id="Chengdu" style="display:none;">
             Click the other one I'll tell you.
         </div>
         <script>
@@ -210,44 +210,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </script>
     </div>
 </div>
-<div class="row">
-    <div class="col-sm-4">
-        <img class="img-responsive" src="http://img.mp.itc.cn/upload/20170407/6ed9c11c35344c4387e4c67adac3b920_th.png" width="85%"/>
-    </div>
-    <div class="col-sm-8">
-        <p>
-        Question 6: Chongqing hotpot or Chengdu hotpot?
-        </p>
-        <button onclick="Hotpot()">Chengdu</button>
-        <div id="Hotpot" style="display:none;">
-            Click the other one I'll tell you.
-        </div>
-        <button onclick="Chongqing()">Chongqing</button>
-        <div id="answer6" style="display:none;">
-            There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.
-        </div>
-        <script>
-            function Chengdu() {
-              var x = document.getElementById("Chengdu");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-              }
-            }
-        </script>
-        <script>
-            function Chongqing() {
-              var x = document.getElementById("Chongqing");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-              }
-            }
-        </script>
-    </div>
-</div>
+<hr/>
 <div class="row">
     <div class="col-sm-4">
         <img class="img-responsive" src="https://thumbs.dreamstime.com/z/%E7%8C%8E%E8%B1%B9%E5%92%8C%E4%B9%8C%E9%BE%9F-%E5%BF%AB%E9%80%9F%E5%92%8C%E6%85%A2%E8%BD%BD%E9%87%8D%E6%A2%81-95250308.jpg" width="85%"/>
