@@ -10,10 +10,10 @@ display_categories: [Articles, Poems, Proses]
 horizontal: false
 ---
 <figure>
-  <img src="wechat.jpg" alt="wechat" style="width:100%">
+  <img src="../assets/img/wechat.jpg" alt="wechat" style="width:75%">
   <figcaption>You are welcome to follow my wechat public account :)</figcaption>
 </figure>
-<hr/>
+
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
