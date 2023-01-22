@@ -52,47 +52,6 @@ These are indisputable things in the world that people often don't realize. (Jk.
     </div>
 </div>
 <hr/>
-
-<div class="row">
-    <div class="col-sm-4">
-        <img class="img-responsive" src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1120%2Fr1093637_1296x729_16%2D9.jpg" width="85%"/>
-    </div>
-
-    <div class="col-sm-8">
-        <p>
-        Question 1: Who is the GOAT?
-        </p>
-        <button onclick="photo1()">Messi</button>
-        <div id="answer1" style="display:none;">
-            Messi is the only GOAT.
-        </div>
-        <button onclick="photo2()">Still Messi</button>
-        <div id="answer2" style="display:none;">
-            The one and the only. Period.
-        </div>
-        <script>
-            function photo1() {
-              var x = document.getElementById("answer1");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-              }
-            }
-        </script>
-        <script>
-            function photo2() {
-              var x = document.getElementById("answer2");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-              }
-            }
-        </script>
-    </div>
-</div>
-<hr/>
 <div class="row">
     <div class="col-sm-4">
         <img class="img-responsive" src="http://p9.itc.cn/q_70/images03/20200625/5877604ed4284b149ebddb76d8d84ac1.jpeg" width="85%"/>
@@ -176,3 +135,43 @@ These are indisputable things in the world that people often don't realize. (Jk.
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-responsive" src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1120%2Fr1093637_1296x729_16%2D9.jpg" width="85%"/>
+    </div>
+
+    <div class="col-sm-8">
+        <p>
+        Question 1: Who is the GOAT?
+        </p>
+        <button onclick="photo7()">Messi</button>
+        <div id="answer7" style="display:none;">
+            Messi is the only GOAT.
+        </div>
+        <button onclick="photo8()">Still Messi</button>
+        <div id="answer8" style="display:none;">
+            The one and the only. Period.
+        </div>
+        <script>
+            function photo7() {
+              var x = document.getElementById("answer7");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function photo8() {
+              var x = document.getElementById("answer8");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
+<hr/>
