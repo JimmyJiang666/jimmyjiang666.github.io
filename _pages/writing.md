@@ -10,20 +10,6 @@ display_categories: [Articles, Poems, Proses]
 horizontal: false
 ---
 
-<!-- <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head>
-<body>
-<img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
-You are welcome to follow my wechat public account :) -->
-
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -70,8 +56,8 @@ You are welcome to follow my wechat public account :) -->
     {% endif %}
 
   {% endif %}
-
+  <img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
+  You are welcome to follow my wechat public account :)
 </div>
 
-<img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
-You are welcome to follow my wechat public account :)
+
