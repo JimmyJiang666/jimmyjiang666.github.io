@@ -21,7 +21,7 @@ img {
 </style>
 </head>
 <body>
-<img src="../assets/img/wechat.jpg" alt="Paris" style="width:50%;">
+<img src="../assets/img/wechat.jpg" alt="wechat" style="width:50%;">
 You are welcome to follow my wechat public account :)
 
 <div class="projects">
