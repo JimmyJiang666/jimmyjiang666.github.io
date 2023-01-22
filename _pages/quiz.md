@@ -174,26 +174,23 @@ These are indisputable things in the world that people often don't realize. (Jk.
 <hr/>
 <div class="row">
     <div class="col-sm-4">
-        <img class="img-responsive" src="https://media.licdn.com/dms/image/C4E12AQHUqdLSIYhFWQ/article-cover_image-shrink_600_2000/0/1520172015994?e=2147483647&v=beta&t=FtcUUgDliRSuBZGimArPTTcb1MVcHk5vLhQ-g4PSzH4" width="85%"/>
+        <img class="img-responsive" src="http://img.mp.itc.cn/upload/20170407/6ed9c11c35344c4387e4c67adac3b920_th.png" width="85%"/>
     </div>
-
     <div class="col-sm-8">
         <p>
-        Question 5: Satisfied pig or dissatisfied Socrates?
+        Question 5: Chongqing hotpot or Chengdu hotpot?
         </p>
-        <button onclick="photo5()">Satisfied pig</button>
-        <div id="answer5" style="display:none;">
-            An oink! An oink! 🐷
+        <button onclick="Hotpot()">Chengdu</button>
+        <div id="Hotpot" style="display:none;">
+            Click the other one I'll tell you.
         </div>
-        <button onclick="photo6()">Dissatisfied Socrates</button>
+        <button onclick="Chongqing()">Chongqing</button>
         <div id="answer6" style="display:none;">
-            "Il n'ya qu'un héroïsme au monde：c'est de voir le monde tel qu'il est et de l'aimer."
-
-            So yes, I'd rather be a dissatisfied Socrates.
+            There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.
         </div>
         <script>
-            function photo5() {
-              var x = document.getElementById("answer5");
+            function Chengdu() {
+              var x = document.getElementById("Chengdu");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
@@ -202,8 +199,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
             }
         </script>
         <script>
-            function photo6() {
-              var x = document.getElementById("answer6");
+            function Chongqing() {
+              var x = document.getElementById("Chongqing");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
@@ -213,12 +210,10 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </script>
     </div>
 </div>
-<hr/>
 <div class="row">
     <div class="col-sm-4">
         <img class="img-responsive" src="http://img.mp.itc.cn/upload/20170407/6ed9c11c35344c4387e4c67adac3b920_th.png" width="85%"/>
     </div>
-
     <div class="col-sm-8">
         <p>
         Question 6: Chongqing hotpot or Chengdu hotpot?
@@ -253,15 +248,53 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </script>
     </div>
 </div>
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-responsive" src="https://thumbs.dreamstime.com/z/%E7%8C%8E%E8%B1%B9%E5%92%8C%E4%B9%8C%E9%BE%9F-%E5%BF%AB%E9%80%9F%E5%92%8C%E6%85%A2%E8%BD%BD%E9%87%8D%E6%A2%81-95250308.jpg" width="85%"/>
+    </div>
+
+    <div class="col-sm-8">
+        <p>
+        Question 7: A leopard that runs for 50 years or a turtle that sleeps for 150 years? (Credit to my mom who asked me this question all the time when I was little)
+        </p>
+        <button onclick="Leopard()">Leopard🐆</button>
+        <div id="answer5" style="display:none;">
+            I want to be a leopard. For now. Maybe I want to switch to a turtle when I am older :)
+        </div>
+        <button onclick="photo6()">Turtle🐢</button>
+        <div id="answer6" style="display:none;">
+            I can't imagine myself sleeping for 150 years. Headache. 
+        </div>
+        <script>
+            function Leopard() {
+              var x = document.getElementById("Leopard");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function Turtle() {
+              var x = document.getElementById("Turtle");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+    </div>
+</div>
 <hr/>
 <div class="row">
     <div class="col-sm-4">
         <img class="img-responsive" src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1120%2Fr1093637_1296x729_16%2D9.jpg" width="85%"/>
     </div>
-
     <div class="col-sm-8">
         <p>
-        Question 7: Who is the GOAT?
+        Question 8: Now the most important question. Who is the GOAT?
         </p>
         <button onclick="photo7()">Messi</button>
         <div id="answer7" style="display:none;">
