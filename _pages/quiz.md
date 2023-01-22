@@ -221,11 +221,11 @@ These are indisputable things in the world that people often don't realize. (Jk.
         Question 7: A leopard that runs for 50 years or a turtle that sleeps for 150 years? (Credit to my mom who asked me this question all the time when I was little)
         </p>
         <button onclick="Leopard()">Leopard🐆</button>
-        <div id="answer5" style="display:none;">
+        <div id="Leopard" style="display:none;">
             I want to be a leopard. For now. Maybe I want to switch to a turtle when I am older :)
         </div>
-        <button onclick="photo6()">Turtle🐢</button>
-        <div id="answer6" style="display:none;">
+        <button onclick="Turtle()">Turtle🐢</button>
+        <div id="Turtle" style="display:none;">
             I can't imagine myself sleeping for 150 years. Headache. 
         </div>
         <script>
