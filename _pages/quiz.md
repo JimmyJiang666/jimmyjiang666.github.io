@@ -27,13 +27,23 @@ These are indisputable things in the world that people often don't realize. If y
         <div id="answer1" style="display:none;">
             Messi is the only GOAT.
         </div>
-        <button onclick="photo1()">Still Messi</button>
-        <div id="answer1" style="display:none;">
+        <button onclick="photo2()">Still Messi</button>
+        <div id="answer2" style="display:none;">
             The one and the only. Period.
         </div>
         <script>
             function photo1() {
               var x = document.getElementById("answer1");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function photo2() {
+              var x = document.getElementById("answer2");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
@@ -53,17 +63,27 @@ These are indisputable things in the world that people often don't realize. If y
         <p>
         Question 2: which one is better? Zongzi with meat(肉粽)or Zongzi with sugar(甜粽)?
         </p>
-        <button onclick="photo2()">Zongzi with meat(肉粽)</button>
-        <div id="answer2" style="display:none;">
+        <button onclick="photo3()">Zongzi with meat(肉粽)</button>
+        <div id="answer3" style="display:none;">
             Ok, not bad but also not great.
         </div>
-        <button onclick="photo2()">Zongzi with sugar(甜粽)</button>
-        <div id="answer2" style="display:none;">
+        <button onclick="photo4()">Zongzi with sugar(甜粽)</button>
+        <div id="answer4" style="display:none;">
             Yay! Zongzi, essentially, is a type of sweet desert :)
         </div>
         <script>
-            function photo2() {
-              var x = document.getElementById("answer2");
+            function photo3() {
+              var x = document.getElementById("answer3");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            function photo4() {
+              var x = document.getElementById("answer4");
               if (x.style.display === "none") {
                 x.style.display = "block";
               } else {
