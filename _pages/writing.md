@@ -2,14 +2,13 @@
 layout: page
 title: Writings
 permalink: /writings/
-description: “Not I, nor anyone else can travel that road for you. You must travel it by yourself. It is not far. It is within reach. Perhaps you have been on it since you were born, and did not know. Perhaps it is everywhere - on water and land.” - Song of Myself, 46, Walt Whitman (1819-1892)
+description: “Not I, nor anyone else can travel that road for you. You must travel it by yourself. It is not far. It is within reach. Perhaps you have been on it since you were born, and did not know. Perhaps it is everywhere - on water and land.”                                                                      - Song of Myself, 46, Walt Whitman (1819-1892)
 
 nav: true
 nav_order: 3
-display_categories: [Articles, Poems, Proses]
+display_categories: [Articles, Poem, Prose]
 horizontal: false
 ---
-
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -56,8 +55,10 @@ horizontal: false
     {% endif %}
 
   {% endif %}
-<!--   <img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
-  You are welcome to follow my wechat public account :) -->
+  
+<img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
+You are welcome to follow my wechat public account :)
+
 </div>
 
 
