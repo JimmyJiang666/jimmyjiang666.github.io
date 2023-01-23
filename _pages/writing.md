@@ -55,7 +55,7 @@ horizontal: false
     {% endif %}
 
   {% endif %}
-  
+<hr/>
 <img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
 You are welcome to follow my wechat public account :)
 
