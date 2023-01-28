@@ -53,7 +53,6 @@ horizontal: false
         {% endfor %}
       </div>
     {% endif %}
-
   {% endif %}
 <hr/>
 <img src="../assets/img/wechat.jpg" alt="wechat" style="width:20%;">
