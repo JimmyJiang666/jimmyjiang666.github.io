@@ -21,6 +21,6 @@ My name is Muyan Jiang. I am a PhD student at UC Berkeley’s Industrial Enginee
 
 My education was in a global liberal arts school where I have studied in many places including Abu Dhabi, New York, Turkey, Bulgaria, Sri Lanka, etc. I have taken classes from various disciplines including Mathematics, Computer Sciences, Economy, Astronomy, Biology, Political Sciences, Arabic Language, Photography, etc.
 
-I have experiences in research at the intersection of mathematics and computer science. I am broadly interested in optimization, decision-making, matrix analysis, epidemiological modeling, operation research, machine learning, Lie (super)algebra, etc. Please refer to my [publications page](/publications/) for details.
+I have experiences in research at the intersection of mathematics and computer science. I am broadly interested in optimization, decision-making in healthcare, matrix analysis, causual inference, operations research, machine learning, Lie (super)algebra, etc. Please refer to my [publications page](/publications/) for details.
 
 For a recent resume, click [here](/assets/pdf/resume.pdf).
