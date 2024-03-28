@@ -23,7 +23,7 @@ I completed my undergraduate in New York University, Abu Dhabi, UAE, with a doub
 
 My education was in a global liberal arts school where I have studied in many places including Abu Dhabi, New York, Turkey, Bulgaria, Sri Lanka, etc. I have taken classes from various disciplines including Mathematics, Computer Sciences, Economy, Astronomy, Biology, Political Sciences, Arabic Language, Photography, etc.
 
-My current research interests lie in the area of personalized data-driven decision-making with applications mostly in healthcare systems, utilizing mathematical modeling and optimization techniques. I aim to develop interpretable machine learning and statistical models for precision interventions using non/semi-parametric representation of time series data. My recent work focuses on distilling deep hazard models for survival analysis through partial linear model estimation using healthcare data from MIMIC IV.
+My current research interests lie in the area of personalized data-driven decision-making with applications mostly in healthcare systems, utilizing mathematical modeling and optimization techniques. I aim to develop interpretable machine learning and statistical models for precision interventions using non/semi-parametric representation of time series data.
 
 More broadly speaking, I have experience in research at the intersection of mathematics and computer science. I am generally interested in data science, decision-making, optimization, causal inference, operations research, machine learning/deep learning, etc.
 
