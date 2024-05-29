@@ -36,9 +36,11 @@ For a recent resume, click [here](/assets/pdf/resume.pdf).
 
 <div style="text-align: center; margin-top: 20px;">
     <p>Thank you for visiting my site. According to the web counter, you are visitor number:</p>
-  <!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=13734203&style=0028&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>       
+    <!-- HitWebCounter Code START -->
+    <a href="https://www.hitwebcounter.com" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=13734203&style=0028&nbdigits=5&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites" border="0" />
+    </a>
     <!-- HitWebCounter Code END -->
     <p>since 2024/05/30.</p>
 </div>
+<hr/>

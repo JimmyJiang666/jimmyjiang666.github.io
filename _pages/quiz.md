@@ -21,8 +21,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 1: Pepsi or Coke?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(1, 'Pepsi', 1)">Pepsi</button>
-            <button class="btn btn-primary" onclick="selectAnswer(1, 'Coke', 2)">Coke</button>
+            <button class="btn btn-primary" onclick="selectAnswer(1, 'Pepsi, something tastes like toilet cleaner.', 1)">Pepsi</button>
+            <button class="btn btn-primary" onclick="selectAnswer(1, 'Yes, coke please.', 2)">Coke</button>
             <div id="answer1" class="answer"></div>
         </div>
     </div>
@@ -36,8 +36,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 2: Lays or Pringles?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(2, 'Lays', 1)">Lays</button>
-            <button class="btn btn-primary" onclick="selectAnswer(2, 'Pringles', 2)">Pringles</button>
+            <button class="btn btn-primary" onclick="selectAnswer(2, 'When you buy Lays, you are just paying for the air inside.', 1)">Lays</button>
+            <button class="btn btn-primary" onclick="selectAnswer(2, 'MasterPIECE.', 2)">Pringles</button>
             <div id="answer2" class="answer"></div>
         </div>
     </div>
@@ -51,8 +51,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 3: Zongzi with meat(肉粽) or Zongzi with sugar(甜粽)?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(3, 'Zongzi with meat(肉粽)', 1)">Zongzi with meat(肉粽)</button>
-            <button class="btn btn-primary" onclick="selectAnswer(3, 'Zongzi with sugar(甜粽)', 2)">Zongzi with sugar(甜粽)</button>
+            <button class="btn btn-primary" onclick="selectAnswer(3, 'Ok, not bad but also not great.', 1)">Zongzi with meat(肉粽)</button>
+            <button class="btn btn-primary" onclick="selectAnswer(3, 'Yay! Zongzi, essentially, is a type of sweet dessert :)', 2)">Zongzi with sugar(甜粽)</button>
             <div id="answer3" class="answer"></div>
         </div>
     </div>
@@ -66,8 +66,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 4: Dog or cat?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(4, 'Dog', 1)">Dog</button>
-            <button class="btn btn-primary" onclick="selectAnswer(4, 'Cat', 2)">Cat</button>
+            <button class="btn btn-primary" onclick="selectAnswer(4, 'Yes. Labrador. The best.', 1)">Dog</button>
+            <button class="btn btn-primary" onclick="selectAnswer(4, '🐱', 2)">Cat</button>
             <div id="answer4" class="answer"></div>
         </div>
     </div>
@@ -81,8 +81,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 5: Chongqing hotpot or Chengdu hotpot?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(5, 'Chongqing', 1)">Chongqing</button>
-            <button class="btn btn-primary" onclick="selectAnswer(5, 'Chengdu', 2)">Chengdu</button>
+            <button class="btn btn-primary" onclick="selectAnswer(5, 'There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href=\'https://www.sohu.com/a/132630554_385445\'>article</a>.', 1)">Chongqing</button>
+            <button class="btn btn-primary" onclick="selectAnswer(5, 'Click the other one I\'ll tell you.', 2)">Chengdu</button>
             <div id="answer5" class="answer"></div>
         </div>
     </div>
@@ -96,8 +96,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 6: A leopard that runs for 50 years or a turtle that sleeps for 150 years? (Credit to my mom who asked me this question all the time when I was little)</p>
-            <button class="btn btn-primary" onclick="selectAnswer(6, 'Leopard🐆', 1)">Leopard🐆</button>
-            <button class="btn btn-primary" onclick="selectAnswer(6, 'Turtle🐢', 2)">Turtle🐢</button>
+            <button class="btn btn-primary" onclick="selectAnswer(6, 'I want to be a leopard. For now. Maybe I want to switch to a turtle when I am older :)', 1)">Leopard🐆</button>
+            <button class="btn btn-primary" onclick="selectAnswer(6, 'I can\'t imagine myself sleeping for 150 years. Headache.', 2)">Turtle🐢</button>
             <div id="answer6" class="answer"></div>
         </div>
     </div>
@@ -111,8 +111,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 7: Satisfied pig or dissatisfied Socrates?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(7, 'Satisfied pig', 1)">Satisfied pig</button>
-            <button class="btn btn-primary" onclick="selectAnswer(7, 'Dissatisfied Socrates', 2)">Dissatisfied Socrates</button>
+            <button class="btn btn-primary" onclick="selectAnswer(7, 'An oink! An oink! 🐷', 1)">Satisfied pig</button>
+            <button class="btn btn-primary" onclick="selectAnswer(7, '"Il n\'ya qu\'un héroïsme au monde：c\'est de voir le monde tel qu\'il est et de l\'aimer." So yes, I\'d rather be a dissatisfied Socrates.', 2)">Dissatisfied Socrates</button>
             <div id="answer7" class="answer"></div>
         </div>
     </div>
@@ -126,8 +126,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 8: Now the most important question. Who is the GOAT?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(8, 'Messi', 1)">Messi</button>
-            <button class="btn btn-primary" onclick="selectAnswer(8, 'Still Messi', 2)">Still Messi</button>
+            <button class="btn btn-primary" onclick="selectAnswer(8, 'Messi is the only GOAT.', 1)">Messi</button>
+            <button class="btn btn-primary" onclick="selectAnswer(8, 'The one and the only. Period.', 2)">Still Messi</button>
             <div id="answer8" class="answer"></div>
         </div>
     </div>
@@ -182,7 +182,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
                 score++;
             }
         }
-        const percentage = Math.round((score / correctAnswers.length) * 100);
+        const percentage = Math.round((score / (correctAnswers.length - 1)) * 100);
         animatePercentage(percentage);
         document.getElementById("result").style.display = "block";
     }
