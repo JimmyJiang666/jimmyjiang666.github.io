@@ -160,6 +160,19 @@ These are indisputable things in the world that people often don't realize. (Jk.
     </div>
 </div>
 
+<hr/>
+
+<div style="text-align: center; margin-top: 20px;">
+    <p>Thank you for visiting this quiz site. According to the web counter, you are visitor number:</p>
+    <!-- HitWebCounter Code START -->
+    <a href="https://www.hitwebcounter.com" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=13734203&style=0028&nbdigits=5&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites" border="0" />
+    </a>
+    <!-- HitWebCounter Code END -->
+    <p>since 2024/05/30.</p>
+</div>
+<hr/>
+
 <script>
     const correctAnswers = [2, 2, 2, 1, 1, 1, 2, 1]; // Correct answers for the first 7 questions, last question can be 1 or 2
     let userAnswers = new Array(correctAnswers.length).fill(null);
