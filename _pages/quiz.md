@@ -13,7 +13,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
 
 <hr/>
 
-<div class="container">
+<div class="container" id="quiz-container">
     <!-- Question 1 -->
     <div class="row mb-4">
         <div class="col-md-4">
@@ -21,14 +21,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 1: Pepsi or Coke?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('answer1')">Pepsi</button>
-            <div id="answer1" class="answer">
-                Pepsi, something tastes like toilet cleaner.
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('answer2')">Coke</button>
-            <div id="answer2" class="answer">
-                Yes, coke please.
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(1, 'Pepsi', 1)">Pepsi</button>
+            <button class="btn btn-primary" onclick="selectAnswer(1, 'Coke', 2)">Coke</button>
+            <div id="answer1" class="answer"></div>
         </div>
     </div>
 
@@ -41,14 +36,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 2: Lays or Pringles?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('Lays')">Lays</button>
-            <div id="Lays" class="answer">
-                When you buy Lays, you are just paying for the air inside.
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('Pringles')">Pringles</button>
-            <div id="Pringles" class="answer">
-                MasterPIECE.
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(2, 'Lays', 1)">Lays</button>
+            <button class="btn btn-primary" onclick="selectAnswer(2, 'Pringles', 2)">Pringles</button>
+            <div id="answer2" class="answer"></div>
         </div>
     </div>
 
@@ -61,14 +51,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 3: Zongzi with meat(肉粽) or Zongzi with sugar(甜粽)?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('answer3')">Zongzi with meat(肉粽)</button>
-            <div id="answer3" class="answer">
-                Ok, not bad but also not great.
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('answer4')">Zongzi with sugar(甜粽)</button>
-            <div id="answer4" class="answer">
-                Yay! Zongzi, essentially, is a type of sweet dessert :)
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(3, 'Zongzi with meat(肉粽)', 1)">Zongzi with meat(肉粽)</button>
+            <button class="btn btn-primary" onclick="selectAnswer(3, 'Zongzi with sugar(甜粽)', 2)">Zongzi with sugar(甜粽)</button>
+            <div id="answer3" class="answer"></div>
         </div>
     </div>
 
@@ -81,14 +66,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 4: Dog or cat?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('Dog')">Dog</button>
-            <div id="Dog" class="answer">
-                Yes. Labrador. The best.
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('Cat')">Cat</button>
-            <div id="Cat" class="answer">
-                🐱
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(4, 'Dog', 1)">Dog</button>
+            <button class="btn btn-primary" onclick="selectAnswer(4, 'Cat', 2)">Cat</button>
+            <div id="answer4" class="answer"></div>
         </div>
     </div>
 
@@ -101,14 +81,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 5: Chongqing hotpot or Chengdu hotpot?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('Chongqing')">Chongqing</button>
-            <div id="Chongqing" class="answer">
-                There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('Chengdu')">Chengdu</button>
-            <div id="Chengdu" class="answer">
-                Click the other one I'll tell you.
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(5, 'Chongqing', 1)">Chongqing</button>
+            <button class="btn btn-primary" onclick="selectAnswer(5, 'Chengdu', 2)">Chengdu</button>
+            <div id="answer5" class="answer"></div>
         </div>
     </div>
 
@@ -121,14 +96,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 6: A leopard that runs for 50 years or a turtle that sleeps for 150 years? (Credit to my mom who asked me this question all the time when I was little)</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('Leopard')">Leopard🐆</button>
-            <div id="Leopard" class="answer">
-                I want to be a leopard. For now. Maybe I want to switch to a turtle when I am older :)
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('Turtle')">Turtle🐢</button>
-            <div id="Turtle" class="answer">
-                I can't imagine myself sleeping for 150 years. Headache.
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(6, 'Leopard🐆', 1)">Leopard🐆</button>
+            <button class="btn btn-primary" onclick="selectAnswer(6, 'Turtle🐢', 2)">Turtle🐢</button>
+            <div id="answer6" class="answer"></div>
         </div>
     </div>
 
@@ -141,14 +111,9 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 7: Satisfied pig or dissatisfied Socrates?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('answer5')">Satisfied pig</button>
-            <div id="answer5" class="answer">
-                An oink! An oink! 🐷
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('answer6')">Dissatisfied Socrates</button>
-            <div id="answer6" class="answer">
-                "Il n'ya qu'un héroïsme au monde：c'est de voir le monde tel qu'il est et de l'aimer." So yes, I'd rather be a dissatisfied Socrates.
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(7, 'Satisfied pig', 1)">Satisfied pig</button>
+            <button class="btn btn-primary" onclick="selectAnswer(7, 'Dissatisfied Socrates', 2)">Dissatisfied Socrates</button>
+            <div id="answer7" class="answer"></div>
         </div>
     </div>
 
@@ -161,39 +126,116 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 8: Now the most important question. Who is the GOAT?</p>
-            <button class="btn btn-primary" onclick="toggleAnswer('photo7')">Messi</button>
-            <div id="answer7" class="answer">
-                Messi is the only GOAT.
-            </div>
-            <button class="btn btn-primary" onclick="toggleAnswer('photo8')">Still Messi</button>
-            <div id="answer8" class="answer">
-                The one and the only. Period.
-            </div>
+            <button class="btn btn-primary" onclick="selectAnswer(8, 'Messi', 1)">Messi</button>
+            <button class="btn btn-primary" onclick="selectAnswer(8, 'Still Messi', 2)">Still Messi</button>
+            <div id="answer8" class="answer"></div>
         </div>
     </div>
 
     <hr/>
 
+    <!-- Submit Button -->
+    <div class="text-center mb-4">
+        <button class="btn btn-success" onclick="submitQuiz()">Submit</button>
+    </div>
+
+    <!-- Result Display -->
+    <div class="text-center">
+        <div id="result" style="display: none;">
+            <svg viewBox="0 0 36 36" class="circular-chart green">
+                <path class="circle-bg"
+                    d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path id="circle" class="circle"
+                    stroke-dasharray="0, 100"
+                    d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="18" y="20.35" class="percentage" id="percentage">0%</text>
+            </svg>
+            <p>You matched <span id="percentage-text">0</span>% of my answers!</p>
+        </div>
+    </div>
 </div>
 
 <script>
-    function toggleAnswer(id) {
-        var x = document.getElementById(id);
-        if (x.style.display === "none" || x.style.display === "") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
+    const correctAnswers = [2, 2, 2, 1, 1, 1, 2, 1, 2];
+    let userAnswers = new Array(correctAnswers.length).fill(null);
+
+    function selectAnswer(question, text, answer) {
+        if (userAnswers[question - 1] !== null) {
+            return; // Answer already selected
         }
+        document.getElementById(`answer${question}`).innerText = text;
+        userAnswers[question - 1] = answer;
+    }
+
+    function submitQuiz() {
+        let score = 0;
+        for (let i = 0; i < correctAnswers.length; i++) {
+            if (i === correctAnswers.length - 1) {
+                if (userAnswers[i] === 1 || userAnswers[i] === 2) {
+                    score++;
+                }
+            } else if (userAnswers[i] === correctAnswers[i]) {
+                score++;
+            }
+        }
+        const percentage = Math.round((score / correctAnswers.length) * 100);
+        animatePercentage(percentage);
+        document.getElementById("result").style.display = "block";
+    }
+
+    function animatePercentage(percentage) {
+        const circle = document.getElementById('circle');
+        const text = document.getElementById('percentage');
+        const textValue = document.getElementById('percentage-text');
+        let progress = 0;
+        const interval = setInterval(() => {
+            if (progress >= percentage) {
+                clearInterval(interval);
+            } else {
+                progress++;
+                circle.style.strokeDasharray = `${progress}, 100`;
+                text.innerHTML = `${progress}%`;
+                textValue.innerHTML = `${progress}`;
+            }
+        }, 20);
     }
 </script>
 
 <style>
     .answer {
-        display: none;
         margin-top: 10px;
         font-style: italic;
     }
     button.btn.btn-primary {
         margin-right: 10px;
+    }
+    .circular-chart {
+        display: block;
+        margin: 10px auto;
+        max-width: 80%;
+        max-height: 250px;
+    }
+    .circle-bg {
+        fill: none;
+        stroke: #eee;
+        stroke-width: 3.8;
+    }
+    .circle {
+        fill: none;
+        stroke-width: 2.8;
+        stroke-linecap: round;
+        animation: progress 1s ease-out forwards;
+    }
+    .green .circle {
+        stroke: #4caf50;
+    }
+    .percentage {
+        font-size: 0.5em;
+        text-anchor: middle;
+        fill: #333;
     }
 </style>
