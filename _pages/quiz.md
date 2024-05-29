@@ -161,7 +161,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
 </div>
 
 <script>
-    const correctAnswers = [2, 2, 2, 1, 1, 1, 2, 1, 2];
+    const correctAnswers = [2, 2, 2, 1, 1, 1, 2, 1]; // Note: The last question has both answers correct
     let userAnswers = new Array(correctAnswers.length).fill(null);
 
     function selectAnswer(question, text, answer) {
@@ -183,7 +183,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
                 score++;
             }
         }
-        const percentage = Math.round((score / correctAnswers.length) * 100);
+        const percentage = Math.round((score / correctAnswers.length) * 100); // Corrected to divide by 8
         animatePercentage(percentage);
         document.getElementById("result").style.display = "block";
         if (percentage >= 80) {
