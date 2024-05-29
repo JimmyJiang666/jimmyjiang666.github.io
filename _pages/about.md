@@ -30,3 +30,15 @@ More broadly speaking, I have experience in research at the intersection of math
 Please refer to my [publications page](/publications/) for details. I am familiar with Python, C/C++, C#, Scope, R, Mathematica, SQL, Julia and many other DL/ML frameworks or platforms.
 
 For a recent resume, click [here](/assets/pdf/resume.pdf).
+
+
+<hr/>
+
+<div style="text-align: center; margin-top: 20px;">
+    <p>Thank you for visiting my site. According to the web counter, you are visitor number:</p>
+  <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=13734203&style=0028&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>       
+    <!-- HitWebCounter Code END -->
+    <p>since 2024/05/30.</p>
+</div>
