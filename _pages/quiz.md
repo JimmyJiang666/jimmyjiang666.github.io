@@ -112,7 +112,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
         <div class="col-md-8">
             <p>Question 7: Satisfied pig or dissatisfied Socrates?</p>
             <button class="btn btn-primary" onclick="selectAnswer(7, 'An oink! An oink! 🐷', 1)">Satisfied pig</button>
-            <button class="btn btn-primary" onclick="selectAnswer(7, '"Il n\'ya qu\'un héroïsme au monde：c\'est de voir le monde tel qu\'il est et de l\'aimer." So yes, I\'d rather be a dissatisfied Socrates.', 2)">Dissatisfied Socrates</button>
+            <button class="btn btn-primary" onclick="selectAnswer(7, 'Il n\'ya qu\'un héroïsme au monde：c\'est de voir le monde tel qu\'il est et de l\'aimer. So yes, I\'d rather be a dissatisfied Socrates.', 2)">Dissatisfied Socrates</button>
             <div id="answer7" class="answer"></div>
         </div>
     </div>
@@ -155,6 +155,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
                 <text x="18" y="20.35" class="percentage" id="percentage">0%</text>
             </svg>
             <p>You matched <span id="percentage-text">0</span>% of my answers!</p>
+            <p id="message" style="display: none;">Shoot me a message! Few people can get me this much :)</p>
         </div>
     </div>
 </div>
@@ -182,9 +183,12 @@ These are indisputable things in the world that people often don't realize. (Jk.
                 score++;
             }
         }
-        const percentage = Math.round((score / (correctAnswers.length - 1)) * 100);
+        const percentage = Math.round((score / correctAnswers.length) * 100);
         animatePercentage(percentage);
         document.getElementById("result").style.display = "block";
+        if (percentage >= 80) {
+            document.getElementById("message").style.display = "block";
+        }
     }
 
     function animatePercentage(percentage) {
