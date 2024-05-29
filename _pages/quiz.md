@@ -81,8 +81,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
         </div>
         <div class="col-md-8">
             <p>Question 5: Chongqing hotpot or Chengdu hotpot?</p>
-            <button class="btn btn-primary" onclick="selectAnswer(5, 'There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href=\'https://www.sohu.com/a/132630554_385445\'>article</a>.', 1)">Chongqing</button>
-            <button class="btn btn-primary" onclick="selectAnswer(5, 'Click the other one I\'ll tell you.', 2)">Chengdu</button>
+            <button class="btn btn-primary" onclick="selectAnswer(5, 'answer5-1', 1)">Chongqing</button>
+            <button class="btn btn-primary" onclick="selectAnswer(5, 'answer5-2', 2)">Chengdu</button>
             <div id="answer5" class="answer"></div>
         </div>
     </div>
@@ -161,14 +161,20 @@ These are indisputable things in the world that people often don't realize. (Jk.
 </div>
 
 <script>
-    const correctAnswers = [2, 2, 2, 1, 1, 1, 2, 1]; // Note: The last question has both answers correct
+    const correctAnswers = [2, 2, 2, 1, 1, 1, 2, 1]; // Correct answers for the first 7 questions, last question can be 1 or 2
     let userAnswers = new Array(correctAnswers.length).fill(null);
 
-    function selectAnswer(question, text, answer) {
+    const answerTexts = {
+        'answer5-1': 'There are many reasons that you should (always🤓) go with Chongqing hotpot. In short, check out this <a href="https://www.sohu.com/a/132630554_385445">article</a>.',
+        'answer5-2': 'Click the other one I\'ll tell you.'
+    };
+
+    function selectAnswer(question, textKey, answer) {
         if (userAnswers[question - 1] !== null) {
             return; // Answer already selected
         }
-        document.getElementById(`answer${question}`).innerText = text;
+        const answerText = answerTexts[textKey] || textKey;
+        document.getElementById(`answer${question}`).innerHTML = answerText;
         userAnswers[question - 1] = answer;
     }
 
@@ -176,6 +182,7 @@ These are indisputable things in the world that people often don't realize. (Jk.
         let score = 0;
         for (let i = 0; i < correctAnswers.length; i++) {
             if (i === correctAnswers.length - 1) {
+                // Last question logic: both answers 1 and 2 are considered correct
                 if (userAnswers[i] === 1 || userAnswers[i] === 2) {
                     score++;
                 }
@@ -183,7 +190,8 @@ These are indisputable things in the world that people often don't realize. (Jk.
                 score++;
             }
         }
-        const percentage = Math.round((score / correctAnswers.length) * 100); // Corrected to divide by 8
+        const totalQuestions = correctAnswers.length;
+        const percentage = Math.round((score / totalQuestions) * 100); // Correctly computes percentage based on 8 questions
         animatePercentage(percentage);
         document.getElementById("result").style.display = "block";
         if (percentage >= 80) {
