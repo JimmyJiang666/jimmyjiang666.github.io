@@ -23,3 +23,22 @@
       </div>
     </footer>
     {%- endif %}
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/js/bootstrap.bundle.min.js" integrity="{{ site.bootstrap.integrity.js }}" crossorigin="anonymous"></script>
+
+<!-- MDB -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/js/mdb.min.js" integrity="{{ site.mdb.integrity.js }}" crossorigin="anonymous"></script>
+
+<!-- Custom scripts -->
+<script>
+    function toggleAnswer(id) {
+        var x = document.getElementById(id);
+        if (x.style.display === "none" || x.style.display === "") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
