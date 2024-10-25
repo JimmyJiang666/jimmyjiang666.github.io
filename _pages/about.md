@@ -21,9 +21,7 @@ My name is Muyan Jiang. I am a PhD student at UC Berkeley’s Industrial Enginee
 
 I completed my undergraduate in New York University, Abu Dhabi, UAE, with a double major in Mathematics and Computer Sciences. 
 
-My education was in a global liberal arts school where I have studied in many places including Abu Dhabi, New York, Turkey, Bulgaria, Sri Lanka, etc. I have taken classes from various disciplines including Mathematics, Computer Sciences, Economy, Astronomy, Biology, Political Sciences, Arabic Language, Photography, etc.
-
-My current research interests lie in the area of personalized data-driven decision-making with applications mostly in healthcare systems, utilizing mathematical modeling and optimization techniques. I aim to develop interpretable machine learning and statistical models for precision interventions using non/semi-parametric representation of time series data.
+My current research interests lie in the area of personalized data-driven decision-making with applications mostly in healthcare systems, utilizing mathematical modeling and optimization techniques. I aim to develop interpretable machine learning and statistical models for precision interventions and advanced payment models.
 
 More broadly speaking, I have experience in research at the intersection of mathematics and computer science. I am generally interested in data science, decision-making, optimization, causal inference, operations research, machine learning/deep learning, etc.
 
