@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 My name is Muyan Jiang. I am a PhD student at UC Berkeley’s Industrial Engineering and Operations Research (advisor: <a href="https://aswani.ieor.berkeley.edu/">Anil Aswani</a>) with a designated emphasis in Computational Precision Health (advisor: <a href="https://publichealth.berkeley.edu/people/maya-petersen/">Maya Petersen</a>).
 
-I completed my undergraduate in New York University, Abu Dhabi, UAE, with a double major in Mathematics and Computer Sciences. 
+I completed my undergraduate in New York University, Abu Dhabi, UAE, with a double major in Mathematics and Computer Sciences. My undergraduate research lies in the realm of operator theory and matrix analysis, which focuses on Kippenhahn curve and numerical ranges of certain operators. I was proudly mentored by <a href="https://www.math.wm.edu/~ilya/">Ilya Spitkovsky</a>
 
 My current research interests lie in the area of personalized data-driven decision-making with applications mostly in healthcare systems, utilizing mathematical modeling and optimization techniques. I aim to develop interpretable machine learning and statistical models for precision interventions and advanced payment models.
 
