@@ -17,17 +17,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Muyan Jiang. I am a PhD student at UC Berkeley’s Industrial Engineering and Operations Research (advisor: <a href="https://aswani.ieor.berkeley.edu/">Anil Aswani</a>) with a designated emphasis in Computational Precision Health (advisor: <a href="https://publichealth.berkeley.edu/people/maya-petersen/">Maya Petersen</a>).
+My name is **Muyan Jiang**. I am a PhD candidate in **Industrial Engineering & Operations Research** at UC Berkeley, advised by [Anil Aswani](https://aswani.ieor.berkeley.edu/), with a designated emphasis in **Computational Precision Health** (co-advised by [Maya Petersen](https://publichealth.berkeley.edu/people/maya-petersen/)).  
 
-I completed my undergraduate in New York University, Abu Dhabi, UAE, with a double major in Mathematics and Computer Sciences. My undergraduate research lies in the realm of operator theory and matrix analysis, which focuses on Kippenhahn curve and numerical ranges of certain operators. I was proudly mentored by <a href="https://www.math.wm.edu/~ilya/">Ilya Spitkovsky</a>.
+I hold a BS in Mathematics and Computer Science from New York University Abu Dhabi, where I conducted research in operator theory and matrix analysis, focusing on Kippenhahn curves and numerical ranges of reciprocal matrices under the mentorship of [Ilya Spitkovsky](https://www.math.wm.edu/~ilya/).  
 
-My current research interests lie in the area of personalized data-driven decision-making with applications mostly in healthcare systems, utilizing mathematical modeling and optimization techniques. I aim to develop interpretable machine learning and statistical models for precision interventions and advanced payment models.
+My current research integrates mathematical optimization, machine learning, and statistical modeling to design data-driven solutions for healthcare systems. Specific interests include:  
+- **Interpretable ML models** for precision interventions.  
+- **Bi-level optimization** in contract design for healthcare payment systems.  
+- **Semiparametric regression** for personalized treatment strategies.  
 
-More broadly speaking, I have experience in research at the intersection of mathematics and computer science. I am generally interested in data science, decision-making, optimization, causal inference, operations research, machine learning/deep learning, etc.
+I also have broad expertise in operations research, causal inference, and deep learning, with technical proficiency in Python, C/C++, SQL, Julia, PyTorch, TensorFlow, and cloud platforms like AWS and GCP.  
 
-Please refer to my [publications page](/publications/) for details. I am familiar with Python, C/C++, C#, Scope, R, Mathematica, SQL, Julia and many other DL/ML frameworks or platforms.
-
-For a recent resume, click [here](/assets/pdf/resume.pdf).
+For details on my work, visit my [publications](/publications/). A current resume is available [here](/assets/pdf/resume.pdf).  
 
 
 <hr/>
